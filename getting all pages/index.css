@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    height: 50px;
+}
+
+.content{
+    width: 98%;
+    margin-top: 50px;
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    gap: 20px;
+}
+
+.container>div{
+    /* border: 1px solid black; */
+    height: 200px;
+}
+
+.container>div>img{
+    border-radius: 100px;
+}
